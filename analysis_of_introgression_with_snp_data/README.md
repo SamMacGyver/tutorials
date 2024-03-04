@@ -129,10 +129,10 @@ We have simulated SNP data for 20 species in the VCF format, two individuals fro
 
  ```python3
     # reads the newick tree without gene-flow (the empty json file also needs to be in the folder) 
-    t = treetools.HsTree("simulated_tree_no_geneflow.nwk")
+    t = treetools.HsTree("self_simulated_tree_no_geneflow.nwk")
   
     # reads the newick tree and json file with gene-flow evens
-    t_gf = treetools.HsTree("simulated_tree_with_geneflow.nwk")
+    t_gf = treetools.HsTree("self_simulated_tree_with_geneflow.nwk")
 ```
   
 </details>
